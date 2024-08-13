@@ -14,6 +14,7 @@ namespace XBase\Header;
  * @property int $mdxFlag
  * @property int $nextAI
  */
+#[\AllowDynamicProperties]
 class Column
 {
     /** @var string */
